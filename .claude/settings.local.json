@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nool init *)",
+      "Bash(nool propose *)",
+      "Bash(nool status *)",
+      "Bash(nool thread *)",
+      "Bash(xcodegen generate *)",
+      "Bash(xcodebuild test *)",
+      "Bash(xcodebuild build *)",
+      "Bash(xcodebuild build-for-testing *)",
+      "Bash(xcodebuild clean *)",
+      "Bash(cat)",
+      "Read(//tmp/**)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "intent": "Refactor MultipeerSession for @MainActor safety and asynchronous network offloading",
+  "knot_id": "509a9ebe9c883239b307e041ff6fee786899a7d4c9d1b963fd0b75b731a892b2",
+  "solidified_at": 1776732057637,
+  "thread": null
+}

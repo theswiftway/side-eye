@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017913EEA7F0D4D300797C63 /* VoteBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CFBE474FD61ACC12978D43 /* VoteBar.swift */; };
+		0679979FF5A52028953939D6 /* HotTakesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25D11B103C363DCD7437D88 /* HotTakesScene.swift */; };
+		0D72D4C583A52E64B2E6C3E9 /* PlayerChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D36442E6CA7250410B0A91 /* PlayerChip.swift */; };
+		122783F6E09469F42D8D2EF5 /* TimerRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D0318FAE97D031AB8441B /* TimerRing.swift */; };
+		1378539366B0A9AEE5FC011F /* RedFlagsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528571E77BA9043FBE903B69 /* RedFlagsModels.swift */; };
+		13BAB930CE9AC3C760C69267 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC11CF6D05ACDF4B53E17E23 /* Animations.swift */; };
+		1B7A7482AE9790799AEB5866 /* RedFlagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3B2B4A073890F2D35DA113 /* RedFlagsViewModel.swift */; };
+		1E8079926FCC64FDD104698C /* HotTakesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68AB4674A79F2E330B6D72 /* HotTakesView.swift */; };
+		24E563A2466B4DC83AD543E6 /* PacketHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1728F0456F744AF50B3D3344 /* PacketHandler.swift */; };
+		27783288BE03BF6F353CB059 /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E906CCE947D78DC23B97537 /* LobbyView.swift */; };
+		45D42C576C3F9F24BC0EF65D /* nool.db in Resources */ = {isa = PBXBuildFile; fileRef = E0725897D4F7216A15A71B64 /* nool.db */; };
+		4D10EF8B53C4D65139C03F27 /* FriendlyFiresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94D4499207301EC80EF9F6 /* FriendlyFiresTests.swift */; };
+		50735B70F03B1C7D1D9E75DC /* RedFlagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3309E95090BB59E0411A4 /* RedFlagsView.swift */; };
+		533ECEF1CAB183540B00F96C /* IslandExileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDD4CF6F5CBDD7B22A0B3D7 /* IslandExileModels.swift */; };
+		54277FB6BAAEB831CEE18670 /* GameSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E42C37562099AF3E4A148 /* GameSelectionView.swift */; };
+		59CADA7D29F332D008386A6F /* GamePacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C223DA4A2B45DA7268DB26 /* GamePacket.swift */; };
+		5FC461B2F36609CE94833572 /* MultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D50E9770CAF262F4F5891C3 /* MultipeerSession.swift */; };
+		6B8E4350F0CD9E820C861082 /* IslandExileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2353ED255CCFD00FBD79937B /* IslandExileViewModel.swift */; };
+		779503F2752AB308E7622028 /* GameSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFE4A298A3FAB9ED9D48CCC /* GameSelectionViewModel.swift */; };
+		7BE4611A83E1F3CF7A84CE4A /* MoralPriceTagModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D04094D126F648D7A1A5B0F /* MoralPriceTagModels.swift */; };
+		8AD1F16FD684329D3509727B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50130D4BC77B553CF92CFD18 /* Player.swift */; };
+		96E32B54B3F0247A49BCA47E /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0640899B4CD53A7CC439462 /* AppTheme.swift */; };
+		9D2A3200C377F1507F74D810 /* LobbyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA7BDFDFDB794BD8150D0E /* LobbyViewModel.swift */; };
+		A56DEF4843D2F27042E0DFFF /* HotTakesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEDF93E5C6FC2CA444A7ECF /* HotTakesModels.swift */; };
+		A63F1D6BFE5F82D34D3BBE0C /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9A05C9A2FACCA7AC35F5AC /* GameSession.swift */; };
+		CE7F20F7C356235721AFC7AA /* MoralPriceTagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8C3DDD717CADF4D48D3913 /* MoralPriceTagViewModel.swift */; };
+		D7CBD494C33393D310540B4E /* HotTakesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B9E9F08AB78462F41D3C2D /* HotTakesViewModel.swift */; };
+		DFF21F6F3557BE04ED9868B3 /* GameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1546FBBE6882781331C6DFB /* GameType.swift */; };
+		E61984E92A359D121044DCD5 /* FriendlyFiresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E56D565CDED74284C208F /* FriendlyFiresApp.swift */; };
+		ED8CA3016454F6136FB4B92E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1687E1A577360458B6671B8 /* RootView.swift */; };
+		F9B2D22504E735E2FCB54CE4 /* IslandExileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC11B16F713D6C70C75EA84 /* IslandExileView.swift */; };
+		FA6309B760E0B181F530DD1B /* MoralPriceTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE58D38F110DF6466A6FD711 /* MoralPriceTagView.swift */; };
+		FB542E38BA932DD5988769A6 /* PacketRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095ABF7763450206A5132E29 /* PacketRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74CBE69385C1A603DCD6D5C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FA6A70ED623F84B1996921F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C74B2207F5AFAB5EB669AD;
+			remoteInfo = FriendlyFires;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C3309E95090BB59E0411A4 /* RedFlagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFlagsView.swift; sourceTree = "<group>"; };
+		095ABF7763450206A5132E29 /* PacketRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketRouter.swift; sourceTree = "<group>"; };
+		0D04094D126F648D7A1A5B0F /* MoralPriceTagModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralPriceTagModels.swift; sourceTree = "<group>"; };
+		1728F0456F744AF50B3D3344 /* PacketHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketHandler.swift; sourceTree = "<group>"; };
+		2353ED255CCFD00FBD79937B /* IslandExileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandExileViewModel.swift; sourceTree = "<group>"; };
+		50130D4BC77B553CF92CFD18 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		528571E77BA9043FBE903B69 /* RedFlagsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFlagsModels.swift; sourceTree = "<group>"; };
+		5A3D0318FAE97D031AB8441B /* TimerRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerRing.swift; sourceTree = "<group>"; };
+		5BDD4CF6F5CBDD7B22A0B3D7 /* IslandExileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandExileModels.swift; sourceTree = "<group>"; };
+		5D50E9770CAF262F4F5891C3 /* MultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession.swift; sourceTree = "<group>"; };
+		7BFE4A298A3FAB9ED9D48CCC /* GameSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionViewModel.swift; sourceTree = "<group>"; };
+		7D9A05C9A2FACCA7AC35F5AC /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		8A5B783BB45E2B0136740D7D /* FriendlyFires.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = FriendlyFires.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC11B16F713D6C70C75EA84 /* IslandExileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandExileView.swift; sourceTree = "<group>"; };
+		9AEDF93E5C6FC2CA444A7ECF /* HotTakesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTakesModels.swift; sourceTree = "<group>"; };
+		9E906CCE947D78DC23B97537 /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
+		9F0E56D565CDED74284C208F /* FriendlyFiresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyFiresApp.swift; sourceTree = "<group>"; };
+		AF94D4499207301EC80EF9F6 /* FriendlyFiresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyFiresTests.swift; sourceTree = "<group>"; };
+		B1687E1A577360458B6671B8 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BA8C3DDD717CADF4D48D3913 /* MoralPriceTagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralPriceTagViewModel.swift; sourceTree = "<group>"; };
+		BE3B2B4A073890F2D35DA113 /* RedFlagsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFlagsViewModel.swift; sourceTree = "<group>"; };
+		BF68AB4674A79F2E330B6D72 /* HotTakesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTakesView.swift; sourceTree = "<group>"; };
+		C0640899B4CD53A7CC439462 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		C25E42C37562099AF3E4A148 /* GameSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelectionView.swift; sourceTree = "<group>"; };
+		C623C7276C9A531D4D1E4E3D /* FriendlyFiresTests.bundle */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = FriendlyFiresTests.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C223DA4A2B45DA7268DB26 /* GamePacket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePacket.swift; sourceTree = "<group>"; };
+		D8D36442E6CA7250410B0A91 /* PlayerChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerChip.swift; sourceTree = "<group>"; };
+		DC11CF6D05ACDF4B53E17E23 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		E0725897D4F7216A15A71B64 /* nool.db */ = {isa = PBXFileReference; path = nool.db; sourceTree = "<group>"; };
+		E4B9E9F08AB78462F41D3C2D /* HotTakesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTakesViewModel.swift; sourceTree = "<group>"; };
+		E9CFBE474FD61ACC12978D43 /* VoteBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteBar.swift; sourceTree = "<group>"; };
+		ECDF82ED3AA6BEC261CB3796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F0DA7BDFDFDB794BD8150D0E /* LobbyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewModel.swift; sourceTree = "<group>"; };
+		F1546FBBE6882781331C6DFB /* GameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameType.swift; sourceTree = "<group>"; };
+		F25D11B103C363DCD7437D88 /* HotTakesScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotTakesScene.swift; sourceTree = "<group>"; };
+		FE58D38F110DF6466A6FD711 /* MoralPriceTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoralPriceTagView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		08270DE58DB4A23AA5B601C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B783BB45E2B0136740D7D /* FriendlyFires.app */,
+				C623C7276C9A531D4D1E4E3D /* FriendlyFiresTests.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0885822EF92B53A870E99F6D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D8D36442E6CA7250410B0A91 /* PlayerChip.swift */,
+				5A3D0318FAE97D031AB8441B /* TimerRing.swift */,
+				E9CFBE474FD61ACC12978D43 /* VoteBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		09196F3FEEEEF2599C525E46 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				529DA35018E35F223D59F073 /* HotTakesCourt */,
+				92151446D56FC339F5B51AD8 /* IslandExile */,
+				C6EF24F7D107F42E2DCE128B /* MoralPriceTag */,
+				FFB9CCD4004F250947B5AD37 /* RedFlags */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		0EBEAA1CB6938AAB60B012BE /* GameSelection */ = {
+			isa = PBXGroup;
+			children = (
+				C25E42C37562099AF3E4A148 /* GameSelectionView.swift */,
+				7BFE4A298A3FAB9ED9D48CCC /* GameSelectionViewModel.swift */,
+			);
+			path = GameSelection;
+			sourceTree = "<group>";
+		};
+		1749D17D7CEDACBD7A642782 /* FriendlyFires */ = {
+			isa = PBXGroup;
+			children = (
+				ECDF82ED3AA6BEC261CB3796 /* Info.plist */,
+				E0725897D4F7216A15A71B64 /* nool.db */,
+				5DB48922C2A2A65EC9B2FE1B /* App */,
+				3976F174AF260C19B2A36A94 /* Core */,
+				09196F3FEEEEF2599C525E46 /* Games */,
+				0EBEAA1CB6938AAB60B012BE /* GameSelection */,
+				7E647BD8563B314C14D1ECDD /* Lobby */,
+				66990E8060D5DCC65BEEFEDE /* UI */,
+			);
+			path = FriendlyFires;
+			sourceTree = "<group>";
+		};
+		3976F174AF260C19B2A36A94 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4C68D62616377310FC34C264 /* Models */,
+				882BD1D3B2EB63FA86E20C6B /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4C68D62616377310FC34C264 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D9A05C9A2FACCA7AC35F5AC /* GameSession.swift */,
+				F1546FBBE6882781331C6DFB /* GameType.swift */,
+				50130D4BC77B553CF92CFD18 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		529DA35018E35F223D59F073 /* HotTakesCourt */ = {
+			isa = PBXGroup;
+			children = (
+				9AEDF93E5C6FC2CA444A7ECF /* HotTakesModels.swift */,
+				F25D11B103C363DCD7437D88 /* HotTakesScene.swift */,
+				BF68AB4674A79F2E330B6D72 /* HotTakesView.swift */,
+				E4B9E9F08AB78462F41D3C2D /* HotTakesViewModel.swift */,
+			);
+			path = HotTakesCourt;
+			sourceTree = "<group>";
+		};
+		5DB48922C2A2A65EC9B2FE1B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E56D565CDED74284C208F /* FriendlyFiresApp.swift */,
+				B1687E1A577360458B6671B8 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		66990E8060D5DCC65BEEFEDE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0885822EF92B53A870E99F6D /* Components */,
+				7D79BB9544A2BA76341C493D /* Theme */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7D79BB9544A2BA76341C493D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				DC11CF6D05ACDF4B53E17E23 /* Animations.swift */,
+				C0640899B4CD53A7CC439462 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		7E647BD8563B314C14D1ECDD /* Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				9E906CCE947D78DC23B97537 /* LobbyView.swift */,
+				F0DA7BDFDFDB794BD8150D0E /* LobbyViewModel.swift */,
+			);
+			path = Lobby;
+			sourceTree = "<group>";
+		};
+		882BD1D3B2EB63FA86E20C6B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D2C223DA4A2B45DA7268DB26 /* GamePacket.swift */,
+				5D50E9770CAF262F4F5891C3 /* MultipeerSession.swift */,
+				1728F0456F744AF50B3D3344 /* PacketHandler.swift */,
+				095ABF7763450206A5132E29 /* PacketRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		92151446D56FC339F5B51AD8 /* IslandExile */ = {
+			isa = PBXGroup;
+			children = (
+				5BDD4CF6F5CBDD7B22A0B3D7 /* IslandExileModels.swift */,
+				9AC11B16F713D6C70C75EA84 /* IslandExileView.swift */,
+				2353ED255CCFD00FBD79937B /* IslandExileViewModel.swift */,
+			);
+			path = IslandExile;
+			sourceTree = "<group>";
+		};
+		C6EF24F7D107F42E2DCE128B /* MoralPriceTag */ = {
+			isa = PBXGroup;
+			children = (
+				0D04094D126F648D7A1A5B0F /* MoralPriceTagModels.swift */,
+				FE58D38F110DF6466A6FD711 /* MoralPriceTagView.swift */,
+				BA8C3DDD717CADF4D48D3913 /* MoralPriceTagViewModel.swift */,
+			);
+			path = MoralPriceTag;
+			sourceTree = "<group>";
+		};
+		F48AB50521D5173154AE635B = {
+			isa = PBXGroup;
+			children = (
+				1749D17D7CEDACBD7A642782 /* FriendlyFires */,
+				F8598D43197B1A3327C8EC9D /* Tests */,
+				08270DE58DB4A23AA5B601C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8598D43197B1A3327C8EC9D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AF94D4499207301EC80EF9F6 /* FriendlyFiresTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FFB9CCD4004F250947B5AD37 /* RedFlags */ = {
+			isa = PBXGroup;
+			children = (
+				528571E77BA9043FBE903B69 /* RedFlagsModels.swift */,
+				04C3309E95090BB59E0411A4 /* RedFlagsView.swift */,
+				BE3B2B4A073890F2D35DA113 /* RedFlagsViewModel.swift */,
+			);
+			path = RedFlags;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34BB722AE808E950DCB6DEA1 /* FriendlyFiresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 436AD27813FE41D0ECCF105D /* Build configuration list for PBXNativeTarget "FriendlyFiresTests" */;
+			buildPhases = (
+				F6E9980663E563DDFB579899 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3210F4A71A3B83600FB23AC /* PBXTargetDependency */,
+			);
+			name = FriendlyFiresTests;
+			packageProductDependencies = (
+			);
+			productName = FriendlyFiresTests;
+			productReference = C623C7276C9A531D4D1E4E3D /* FriendlyFiresTests.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E9C74B2207F5AFAB5EB669AD /* FriendlyFires */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CDF7E93955B9F65A9D93BEE /* Build configuration list for PBXNativeTarget "FriendlyFires" */;
+			buildPhases = (
+				49D71C6F47CFF9CF70A62426 /* Sources */,
+				D181671B251DA58C21E5BF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendlyFires;
+			packageProductDependencies = (
+			);
+			productName = FriendlyFires;
+			productReference = 8A5B783BB45E2B0136740D7D /* FriendlyFires.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FA6A70ED623F84B1996921F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					34BB722AE808E950DCB6DEA1 = {
+						ProvisioningStyle = Automatic;
+					};
+					E9C74B2207F5AFAB5EB669AD = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4CFEC37F0D02496C100130D2 /* Build configuration list for PBXProject "FriendlyFires" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F48AB50521D5173154AE635B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9C74B2207F5AFAB5EB669AD /* FriendlyFires */,
+				34BB722AE808E950DCB6DEA1 /* FriendlyFiresTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D181671B251DA58C21E5BF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45D42C576C3F9F24BC0EF65D /* nool.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D71C6F47CFF9CF70A62426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BAB930CE9AC3C760C69267 /* Animations.swift in Sources */,
+				96E32B54B3F0247A49BCA47E /* AppTheme.swift in Sources */,
+				E61984E92A359D121044DCD5 /* FriendlyFiresApp.swift in Sources */,
+				59CADA7D29F332D008386A6F /* GamePacket.swift in Sources */,
+				54277FB6BAAEB831CEE18670 /* GameSelectionView.swift in Sources */,
+				779503F2752AB308E7622028 /* GameSelectionViewModel.swift in Sources */,
+				A63F1D6BFE5F82D34D3BBE0C /* GameSession.swift in Sources */,
+				DFF21F6F3557BE04ED9868B3 /* GameType.swift in Sources */,
+				A56DEF4843D2F27042E0DFFF /* HotTakesModels.swift in Sources */,
+				0679979FF5A52028953939D6 /* HotTakesScene.swift in Sources */,
+				1E8079926FCC64FDD104698C /* HotTakesView.swift in Sources */,
+				D7CBD494C33393D310540B4E /* HotTakesViewModel.swift in Sources */,
+				533ECEF1CAB183540B00F96C /* IslandExileModels.swift in Sources */,
+				F9B2D22504E735E2FCB54CE4 /* IslandExileView.swift in Sources */,
+				6B8E4350F0CD9E820C861082 /* IslandExileViewModel.swift in Sources */,
+				27783288BE03BF6F353CB059 /* LobbyView.swift in Sources */,
+				9D2A3200C377F1507F74D810 /* LobbyViewModel.swift in Sources */,
+				7BE4611A83E1F3CF7A84CE4A /* MoralPriceTagModels.swift in Sources */,
+				FA6309B760E0B181F530DD1B /* MoralPriceTagView.swift in Sources */,
+				CE7F20F7C356235721AFC7AA /* MoralPriceTagViewModel.swift in Sources */,
+				5FC461B2F36609CE94833572 /* MultipeerSession.swift in Sources */,
+				24E563A2466B4DC83AD543E6 /* PacketHandler.swift in Sources */,
+				FB542E38BA932DD5988769A6 /* PacketRouter.swift in Sources */,
+				8AD1F16FD684329D3509727B /* Player.swift in Sources */,
+				0D72D4C583A52E64B2E6C3E9 /* PlayerChip.swift in Sources */,
+				1378539366B0A9AEE5FC011F /* RedFlagsModels.swift in Sources */,
+				50735B70F03B1C7D1D9E75DC /* RedFlagsView.swift in Sources */,
+				1B7A7482AE9790799AEB5866 /* RedFlagsViewModel.swift in Sources */,
+				ED8CA3016454F6136FB4B92E /* RootView.swift in Sources */,
+				122783F6E09469F42D8D2EF5 /* TimerRing.swift in Sources */,
+				017913EEA7F0D4D300797C63 /* VoteBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E9980663E563DDFB579899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D10EF8B53C4D65139C03F27 /* FriendlyFiresTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3210F4A71A3B83600FB23AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9C74B2207F5AFAB5EB669AD /* FriendlyFires */;
+			targetProxy = 74CBE69385C1A603DCD6D5C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		126D2401E567EE300B7F6EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FriendlyFires/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.friendlyfires.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4520D0A0438793F8077C2BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.friendlyfires.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendlyFires.app/FriendlyFires";
+			};
+			name = Debug;
+		};
+		6B177FFD21AA4B50A5270B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FriendlyFires/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.friendlyfires.app;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C93E52883FC2A5201D53AD4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.friendlyfires.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendlyFires.app/FriendlyFires";
+			};
+			name = Release;
+		};
+		E953D87651E8102224844CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF201C41555DC8FDE57051F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CDF7E93955B9F65A9D93BEE /* Build configuration list for PBXNativeTarget "FriendlyFires" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B177FFD21AA4B50A5270B31 /* Debug */,
+				126D2401E567EE300B7F6EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		436AD27813FE41D0ECCF105D /* Build configuration list for PBXNativeTarget "FriendlyFiresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4520D0A0438793F8077C2BC7 /* Debug */,
+				C93E52883FC2A5201D53AD4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4CFEC37F0D02496C100130D2 /* Build configuration list for PBXProject "FriendlyFires" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF201C41555DC8FDE57051F6 /* Debug */,
+				E953D87651E8102224844CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FA6A70ED623F84B1996921F /* Project object */;
+}
