@@ -1,6 +1,6 @@
 {
-  "intent": "Refactor MultipeerSession for @MainActor safety and asynchronous network offloading",
-  "knot_id": "509a9ebe9c883239b307e041ff6fee786899a7d4c9d1b963fd0b75b731a892b2",
-  "solidified_at": 1776732057637,
-  "thread": null
+  "intent": "EmojiReactions for live game reactions",
+  "knot_id": "87ecb007ebf86db7b2a6f348c1dab2d14ab66cd5acdef0a247f9b9f4a672a93f",
+  "solidified_at": 1776981565839,
+  "thread": "main"
 }
